@@ -50,7 +50,7 @@ h2, h3{
 
 .column {
   float: left;
-width: 49.5%;
+width: 47%;
 border: 2px solid black;
 height: 100%;
  
@@ -75,7 +75,7 @@ height: 100%;
 
 
 img {  
-width: 100%;
+width: 99%;
     max-height: 300px; }
     
 
@@ -106,12 +106,12 @@ text-align: left;
 }
 
 div.gallery {
-  border: 2px solid black;
+  border: 3px solid black;
   
 }
 
 div.gallery:hover {
-  border: 5px solid rgb(192, 25, 25);
+  border: 3px solid rgb(192, 25, 25);
 }
 
 
