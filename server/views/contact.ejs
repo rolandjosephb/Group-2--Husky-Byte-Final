@@ -74,28 +74,17 @@
                 <br>
                 <br>
 
-                <label>Postal Code&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-                <input type="text" name=" First Postal Code" id="Postal Code1" pattern="[A-Z]{1}" title="Must be Capital Letter" maxlength="1" size="1" required>
-                <input type="text" name=" Second Postal Code" id="Postal Code2" pattern="[0-9]{1}" title="Must be a number from 0~9" maxlength="1" size="1" required>
-                <input type="text" name=" Third Postal Code" id="Postal Code3" pattern="[A-Z]{1}" title="Must be Capital Letter" maxlength="1" size="1" required>
-                <input type="text" name=" Fourth Postal Code" id="Postal Code4" pattern="[0-9]{1}" title="Must be a number from 0~9" maxlength="1" size="1" required>
-                <input type="text" name=" Fifth Postal Code" id="Postal Code5" pattern="[A-Z]{1}" title="Must be Capital Letter" maxlength="1" size="1" required>
-                <input type="text" name=" Sixth Postal Code" id="Postal Code6" pattern="[0-9]{1}" title="Must be a number from 0~9" maxlength="1" size="1" required>
-
-                <br>
-                <br>
-                <label for="Province ">Provice:&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-                <select name="Provice " id="Provice">
-                    <option value="QC ">QC</option>
-                    <option value="ON ">ON</option>
-                    <option value=" MN ">MN</option>
-                    <option value="SK ">SK</option>
-                    <option value="AB ">AB</option>
-                    <option value="BC ">BC</option>
-                </select><br /><br />
+              
+             
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  
+                  <option value="canada">Canada</option>
+                  <option value="usa">USA</option>
+                </select>
 
                 <label>Age:&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-                <input type="number" name="Age " id="Age" min="18" max="300" required placeholder="">
+                <input type="number" name="Age " id="Age" min="5" max="300" required placeholder="">
                 <br>
                 <br>
 
@@ -106,10 +95,18 @@
                 <label>Email:&nbsp&nbsp&nbsp&nbsp&nbsp</label>
                 <input type="email" name="Email " id="Email" required placeholder="Enter Email" pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
                        title="Email should be in the following format: youruser@whatever.com or ca">
+
+                       <br>
+                       <br>
+                       <label for="subject">Subject</label><br>
+                       <textarea id="subject" name="subject" placeholder="Write the reason why you wanted to contact us." style="width: 60%; height: auto; "></textarea>
+
                 <br>
                 <br>
                 <button type="reset" value="Reset">Reset</button>
                 <input type="submit" id="submitBtn" value="Submit" />
+                
+ 
             </div>
 
 <br>
